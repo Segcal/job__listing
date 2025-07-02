@@ -113,17 +113,7 @@ npm run build
 # Deploy the .next folder
 ```
 
-### Docker
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
+
 
 ## 🔮 Future Improvements
 
@@ -135,12 +125,7 @@ Given more time, I would implement:
 - **API Routes**: RESTful API endpoints for job management
 - **File Uploads**: Resume and company logo upload functionality
 
-### Enhanced Features
-- **Advanced Search**: Full-text search with Elasticsearch or similar
-- **Job Applications**: Built-in application system with status tracking
-- **Email Notifications**: Automated alerts for new jobs and applications
-- **Analytics Dashboard**: Job posting performance and application metrics
-- **Payment Integration**: Paid job posting tiers with Stripe
+
 
 ### Performance & SEO
 - **Static Generation**: ISR for job listings to improve performance
@@ -168,7 +153,3 @@ Given more time, I would implement:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
