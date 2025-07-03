@@ -7,7 +7,7 @@ import Header from '../components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'RemoteJobs - Find Your Dream Remote Tech Job',
+  title: 'Job_listing App',
   description: 'A modern job board platform for remote tech roles. Find your next opportunity with top companies.',
 };
 
